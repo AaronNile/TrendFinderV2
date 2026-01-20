@@ -235,7 +235,7 @@ def index():
     # Compute moving averages and volatility
     EMA = ExponentialMA(closing_list)
     SMA = simpleMA(closing_list)
-    Vol_scalar = Volatility(closing_list) * 2  # 2σ bands
+    Vol_scalar = Volatility(closing_list) * 0.3  
 
     # Build price-proportional volatility per-SMA-point 
     price_vol = [ (s * Vol_scalar) if s is not None else None for s in SMA ]
