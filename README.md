@@ -5,7 +5,7 @@ TrendFinder is a Python-based web application that analyzes stock price trends u
 ## Live Demo
 
 Deployed on Render:
-https://trendfinder-v2.onrender.com
+https://trendfinderv2.onrender.com
 
 ## Overview
 
